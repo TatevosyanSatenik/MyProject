@@ -1,0 +1,25 @@
+@media (max-width: 587px){
+	.menu{
+		display: none;
+	}
+	header{
+		width: 100%;
+		background: black;
+		padding: 10px;
+	}
+	.d3{
+		flex-direction: column;
+	}
+	.d4{
+		border: none;
+		order: -1;
+		padding: 40px 0;
+	}
+	.d2{
+		padding: 50px 0 10px;
+		gap: 20px ;
+	}
+	.submenu{
+		display: flex;
+	}
+}

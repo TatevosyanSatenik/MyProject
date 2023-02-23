@@ -1,0 +1,12 @@
+@media (max-width: 500px){
+	header>div>svg{
+        animation:none;
+    }
+    header>div>img{
+        animation:none;
+    }
+    header>nav>ul{
+        display:none;
+    }
+
+}

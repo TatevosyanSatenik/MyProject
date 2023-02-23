@@ -1,0 +1,283 @@
+:root {
+	--b1:#0c3c60;
+	--j:#7dcada;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+@font-face{
+	font-family:font;
+	src: url(../font/c4.woff2);
+}
+@font-face{
+	font-family:font1;
+	src: url(../font/K.woff2)
+}
+@font-face{
+	font-family:font2;
+	src: url(../font/MT.woff2)
+}
+@font-face{
+	font-family:font3;
+	src: url(../font/8e.woff2)
+}
+header {
+	width: 100%;
+	background: var(--b1);
+	padding: 20px 0;
+	position: sticky;
+	z-index: 10;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px 100px;
+	flex-wrap: wrap;
+	color: white;
+	font-family: font3;
+	font-weight: normal;
+	
+}
+header>div>span{
+	font-size: 22px;
+}
+header ul {
+	display: flex;
+	gap:30px;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.a1 {
+	
+	color: white;
+}
+.a1:hover{
+	color:var(--j);
+	transition: 0.2s;
+}
+#span{
+	color:var(--j)
+}
+.mas1 {
+	width: 100%;
+	height: 685px;
+	background-image: url(../img/1791.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	
+}
+.mas2 {
+	width: 100%;
+	height: 476px;
+	display: flex;
+	justify-content:content;
+	justify-content:center;
+	align-items: center;
+	gap:40px;
+	color: white;
+	text-align: center;
+	font-size:clamp(14px,5vw,14px);
+	flex-wrap:wrap;
+
+	
+}
+.mas1 > div {
+	width: 100%;
+	height: 143px;
+	background: #fff8;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	color: var(--b1);
+	font-size:18px;
+}
+.mas1 h1{
+	font-size:clamp(27px,5vw,60px);
+	font-weight: normal;
+	font-family: font3;
+	
+	
+}
+
+.a2 {
+	display: flex;
+	gap:10px;
+	align-items: center;
+}
+.row2{
+	width:300px;
+	height:350px;
+	background-color:var(--b1);
+	display: flex;
+ 	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	gap:40px;
+}
+.row2>h3{
+	font-size:24px;
+	font-family: font;
+	font-weight: normal;
+}
+.row2>p{
+	width: 75%;
+	font-family:font3;
+	
+}
+.row2 button{
+	width:140px;
+	height:40px;
+	font-size:16px;
+	background-color:#39729b;
+	color:white;
+	border:none;
+	
+}
+.mas3{
+	width: 100%;
+	height:560px;
+	background-color:#d1e0eb;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	
+	
+}
+.row3{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	gap:40px;
+	
+}
+.row3 h1{
+	font-size:clamp(37px,5vw,60px);
+	display: flex;
+	align-items: center;
+	
+	color:#0c3c60;
+	font-family: font3;
+	font-weight: normal;
+}
+.row3 p{
+	width:50%;
+	font-weight: normal;
+	font-family: font3;
+	
+}
+.row3 button{
+	background-color:var(--b1);
+	width:140px;
+	height:40px;
+	border:none;
+	color:white;
+
+}
+.full{
+	display: flex;
+    background-color: var(--b1);
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+	
+	
+	
+}
+.full h1{
+	font-size:clamp(37px,5vw,60px);
+	text-align: center;
+	color: white;
+	padding:80px;
+	font-weight: normal;
+	font-family: font3;
+	
+	
+	
+}
+.full2{
+	display: flex;
+	flex-direction:column; 
+	justify-content:center;
+	justify-content: space-evenly;
+}
+.full2 .div2{
+	display: flex;
+	padding-bottom: 50px;
+}
+.l1{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+	gap:10px;
+	padding:5px;
+	color: white;
+	
+}
+
+.input{
+	font-size:25px;
+
+}
+
+.submit{
+	width:148px;
+	height: 32px;
+	background-color: #39729b;
+	border:none;
+	font-size: 16px;
+	color: white;
+
+}
+.form{
+	display: flex;
+}
+.title{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+#message{
+	width: 320px;
+	height:130px;
+}
+.l3{
+	display: flex;
+	justify-content:center;
+	align-items: center;	
+	color: #fff;
+	justify-content: space-between;
+}
+.img {
+	margin-right: 50px;
+}
+.l2 {
+	display: flex;
+	align-content: flex-end;
+}
+.icon-chat {
+	padding: 15px;
+	background-color: #0c3c60;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 999;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+
+
+			
